@@ -1,4 +1,5 @@
 // FIXME: No interface provided yet
+// FIXME: Fonts not applied correctly
 function TcasCard(cardData) {
   console.log("Card Data:", cardData.cardData);
   const data = cardData.cardData;
@@ -105,6 +106,7 @@ function TcasCard(cardData) {
           gap: "16px",
           width: "100%",
         }}
+        className="Header-Divider"
       >
         <img src={data?.logo ?? "/Images/engi.svg"} className="Header-Image" />
         <div
@@ -120,7 +122,6 @@ function TcasCard(cardData) {
         </div>
         <img src="/Images/page-1.svg" className="Header-Heart" />
       </div>
-      <hr className="Header-Divider" />
       {/* Body */}
       {/* Tcas Info */}
       <div

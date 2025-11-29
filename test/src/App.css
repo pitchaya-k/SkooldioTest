@@ -136,7 +136,7 @@ body {
 
 /* Card Header */
 .Faculty-Name {
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   font-size: 24px;
   font-weight: 600;
   font-stretch: normal;
@@ -149,7 +149,7 @@ body {
 
 .Department-Name {
   margin: 5px 0px 24px 0px;
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
@@ -161,7 +161,7 @@ body {
 }
 
 .University-Name {
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   font-size: 20px;
   font-weight: 300;
   font-stretch: normal;
@@ -186,9 +186,12 @@ body {
   object-fit: contain;
 }
 .Header-Divider {
-  /* height: 3px;
-  margin: 0 4px 3px 0;
-  border: solid 1px #d8d8d8; */
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d8d8d8;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 /* Card Body */
 .Body-Header-Text {
@@ -227,7 +230,7 @@ body {
 }
 /* Score */
 .Score-Header-Text {
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   font-size: 16px;
   font-weight: 600;
   font-stretch: normal;
@@ -251,7 +254,7 @@ body {
   width: "100%";
   height: 18px;
   margin: 1px 9px 2px 0;
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
@@ -269,7 +272,7 @@ body {
   object-fit: contain;
 }
 .My-Score-Text {
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   font-size: 12px;
   font-weight: 300;
   font-stretch: normal;
@@ -280,7 +283,7 @@ body {
   color: #4a4a4a;
 }
 .My-Score-Number {
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   font-size: 42px;
   font-weight: 300;
   font-stretch: normal;
@@ -295,9 +298,9 @@ body {
   width: "30%";
   height: 46px;
   /* padding: 3px 162px 14px 3px; */
-  font-family: "Prompt";
+  font-family: "Prompt", sans-serif;
   /* font-size: 11.2px; */
-  font-weight: normal;
+  font-weight: 500;
   /* font-stretch: normal;
   font-style: normal; */
   line-height: 1.5;
