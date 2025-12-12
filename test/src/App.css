@@ -137,11 +137,13 @@ body {
 /* Card Header */
 .Faculty-Name {
   font-family: "Prompt", sans-serif;
+  word-wrap: break-word;
+  word-break: break-all;
   font-size: 24px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
-  line-height: 0.67;
+  line-height: 1;
   letter-spacing: normal;
   text-align: left;
   color: var(--grapefruit);
@@ -150,6 +152,8 @@ body {
 .Department-Name {
   margin: 5px 0px 24px 0px;
   font-family: "Prompt", sans-serif;
+  word-wrap: break-word;
+  word-break: break-all;
   font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
@@ -219,7 +223,7 @@ body {
   width: 32px;
   height: 32px;
   /* margin: 8px 8px 0px 0px; */
-  padding-top: "4px";
+  /* padding-top: "4px"; */
   background-color: var(--greenish-teal);
   border-radius: 100%;
   vertical-align: middle;

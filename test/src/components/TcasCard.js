@@ -15,11 +15,17 @@ function TcasCard(cardData) {
           className="Round-Seat-Oval"
           style={{
             backgroundColor: Number(roundSeats[0]) > 0 ? "#2ecc71" : "#5f5f5f",
+
+            display: "flex",
+            justifyContent: "center",
+            justifyItems: "center",
+            alignItems: "center",
           }}
         >
           <div
             style={{
-              marginTop: "8px",
+              // verticalAlign: "center",
+              textAlign: "center",
             }}
           >
             1
@@ -29,12 +35,19 @@ function TcasCard(cardData) {
           className="Round-Seat-Oval"
           style={{
             backgroundColor: Number(roundSeats[1]) > 0 ? "#2ecc71" : "#5f5f5f",
+
+            display: "flex",
+            justifyContent: "center",
+            justifyItems: "center",
+            alignItems: "center",
           }}
         >
           <div
-            style={{
-              marginTop: "8px",
-            }}
+            style={
+              {
+                // marginTop: "4PX",
+              }
+            }
           >
             2
           </div>
@@ -43,12 +56,19 @@ function TcasCard(cardData) {
           className="Round-Seat-Oval"
           style={{
             backgroundColor: Number(roundSeats[2]) > 0 ? "#2ecc71" : "#5f5f5f",
+
+            display: "flex",
+            justifyContent: "center",
+            justifyItems: "center",
+            alignItems: "center",
           }}
         >
           <div
-            style={{
-              marginTop: "8px",
-            }}
+            style={
+              {
+                // marginTop: "4PX",
+              }
+            }
           >
             3
           </div>
@@ -57,12 +77,19 @@ function TcasCard(cardData) {
           className="Round-Seat-Oval"
           style={{
             backgroundColor: Number(roundSeats[3]) > 0 ? "#2ecc71" : "#5f5f5f",
+
+            display: "flex",
+            justifyContent: "center",
+            justifyItems: "center",
+            alignItems: "center",
           }}
         >
           <div
-            style={{
-              marginTop: "8px",
-            }}
+            style={
+              {
+                // marginTop: "4PX",
+              }
+            }
           >
             4
           </div>
@@ -71,12 +98,19 @@ function TcasCard(cardData) {
           className="Round-Seat-Oval"
           style={{
             backgroundColor: Number(roundSeats[4]) > 0 ? "#2ecc71" : "#5f5f5f",
+
+            display: "flex",
+            justifyContent: "center",
+            justifyItems: "center",
+            alignItems: "center",
           }}
         >
           <div
-            style={{
-              marginTop: "8px",
-            }}
+            style={
+              {
+                // marginTop: "4PX",
+              }
+            }
           >
             5
           </div>
